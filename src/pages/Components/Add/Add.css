@@ -1,0 +1,27 @@
+.add-container{
+    border: 1px solid ;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    background-color: white;
+    height: max-content;
+}
+
+.add-title{
+    color: darkblue;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.add-variables{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.add-display{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+}

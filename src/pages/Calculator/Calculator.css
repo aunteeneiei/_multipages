@@ -1,0 +1,80 @@
+.calculator {
+    border: 1px solid #000;
+    max-width: 400px;
+    height: 575px;
+    margin: 10px auto;
+    background-image: -moz-linear-gradient(0deg, #0a020e 0%, #5444ff 100%);
+    background-image: -webkit-linear-gradient(90deg, #0a020e 0%, #002aff 100%);
+}
+
+.screen {
+    display: flex;
+    flex-flow: column nowrap;
+    background-image: -moz-linear-gradient(0deg, #311440 0%, #0048ff 100%);
+    background-image: -webkit-linear-gradient(90deg, #311440 0%, #003cff 100%);
+    min-height: 80px;
+    padding: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.screen .previous {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.75);
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.screen .current {
+    font-size: 2.5rem;
+    color: #fff;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.cal_btn_row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 2px;
+}
+
+.cal_btn {
+    background-color: #f1edf3;
+    color: #000;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2.5rem;
+    border: 1px;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    flex-basis: 24.5%;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.cal_btn:hover {
+    background-color: #ebebeb;
+}
+
+.cal_btn:active {
+    background-color: #bbbcbe;
+}
+
+.cal_btn:last-child {
+    background-color: #72a8db;
+    color: #fff;
+}
+
+.cal_btn:last-child:hover {
+    background-color: #6ec0e0;
+}
+
+.double {
+    flex-basis: 50%;
+}

@@ -1,0 +1,39 @@
+.components-container{
+    border: 1px solid black;
+    height: auto;
+    margin: 10px;
+        text-align: center;
+}
+
+  .app-title{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    background: #000000;
+    width: max-content;
+    /* border: 1px solid ; */
+    border-radius: 10px;
+    padding: 0.3rem;
+    margin: auto;
+  }
+  
+  .myName{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    background: #000000;
+    width: max-content;
+    /* border: 1px solid ; */
+    border-radius: 10px;
+    margin: 0.2rem auto;
+    padding: 0.3rem;
+    
+  }
+  
+  .wrapper{
+    display: grid;
+    gap: 0.5rem;
+    justify-content: space-between;
+    grid-template-columns: 1fr 2fr;
+    margin: 5px 0 5px 0;
+  }

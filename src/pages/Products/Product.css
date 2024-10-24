@@ -1,0 +1,15 @@
+.product-container{
+    border: 1px solid black;
+    height: 600px;
+    margin: 10px;
+}
+
+.products-itemps-container{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 2rem;
+    overflow: auto;
+    height: 560px;
+    align-items: start;
+}
